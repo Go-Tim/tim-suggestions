@@ -22,7 +22,7 @@ class App extends React.Component {
   }
 
   getCamp() {
-    axios.get('http://localhost:3005/api/camp')
+    axios.get('/api/camp')
       .then((results) => {
         this.setState({
           camp: results.data[0],
@@ -35,7 +35,7 @@ class App extends React.Component {
   }
 
   getAlsoViewed() {
-    axios.get('http://localhost:3005/api/camps')
+    axios.get('/api/camps')
       .then((results) => {
         this.setState({
           alsoViewed: results.data,
