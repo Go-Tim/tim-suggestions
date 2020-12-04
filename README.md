@@ -1,5 +1,7 @@
 # Suggestions Module
-> Suggestions module for a campsite page on a camp spot rental website. Created for a Front-End Capstone project at Hack Reactor.
+> Suggestions module for Hipcamp campsite page on a camp spot rental website. Created for a Front-End Capstone project at Hack Reactor.
+
+<h3><b>Webpage Demo:</b>https://youtu.be/IN7jjsxXM3E</h3>
 
 ## Related Projects
 
