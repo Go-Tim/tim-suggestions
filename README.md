@@ -3,6 +3,8 @@
 
 <h3><b>Webpage Demo:</b>https://youtu.be/IN7jjsxXM3E</h3>
 
+![](readme-assets/webpage.jpg)
+
 ## Related Projects
 
   - https://github.com/teamName/nick-navbar
