@@ -3,7 +3,7 @@
 
 <h3><b>Webpage Demo:</b>https://youtu.be/IN7jjsxXM3E</h3>
 
-![](readme-assets/webpage.jpg)
+![](readme-assets/webpage.png)
 
 ## Related Projects
 
