@@ -5,7 +5,7 @@ const Map = (props) => {
   return (
     <div className="wide-map" id="location-section">
       <div className="map">
-        <iframe className="google-map" title="google-map" src={camp.map_url} width="100%" height="450" frameBorder="0" style={{ border: 0 }} allowFullScreen="" aria-hidden="false" tabIndex="0" />
+        <iframe className="google-map" loading="lazy" title="google-map" src={camp.map_url} width="100%" height="450" frameBorder="0" style={{ border: 0 }} allowFullScreen="" aria-hidden="false" tabIndex="0" />
         <div className="tile-container">
           <div className="container">
             <div className="tile">
