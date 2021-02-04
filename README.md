@@ -7,7 +7,6 @@
 
 ## Related Projects
 
-  - https://github.com/teamName/nick-navbar
   - https://github.com/teamName/nick-reviews
   - https://github.com/Go-Tim/overview-2
   - https://github.com/Go-Tim/tim-suggestions
