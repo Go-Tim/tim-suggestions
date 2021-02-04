@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Tooltip from 'react-tooltip';
+import ProgressiveImage from './ProgressiveImage.jsx';
 
 const Camp = (props) => {
   const { camp } = props;
+  const loaded = ProgressiveImage(camp.image_url);
 
   const renderTickMark = () => {
     const tickChance = Math.random();
@@ -20,7 +22,8 @@ const Camp = (props) => {
 
   return (
     <div className="suggested-camp">
-      <div className="background" style={{ backgroundImage: `url(${camp.image_url})` }} />
+      <div id="bg-image" className="background" style={{ backgroundImage: `url(${loaded})` }} />
+      {/* <ProgressiveImage src={camp.image_url} /> */}
       <h4>
         <span className="suggested-camp_name">{camp.name}</span>
         {renderTickMark()}

@@ -47,9 +47,10 @@
     "mysql": "^2.18.1",
     "path": "^0.12.7",
     "pure-react-carousel": "^1.27.4",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "react-icons": "^3.11.0",
+    "react-lazyload": "^3.1.0",
     "react-moment": "^1.0.0",
     "react-tooltip": "^4.2.10"
   },

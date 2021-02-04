@@ -10,7 +10,9 @@ const CampList = (props) => (
         </div>
       </div>
       <div className="row">
-        {props.camps.map((camp, index) => <Camp key={index} camp={camp} />)}
+        {props.camps.map((camp, index) =>
+            <Camp key={index} camp={camp} />
+          )}
       </div>
     </div>
   </div>
